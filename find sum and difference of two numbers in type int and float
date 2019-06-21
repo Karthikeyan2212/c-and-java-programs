@@ -16,7 +16,9 @@ int main()
     s2=c+d;
     d2=c-d;
     printf("%d %d\n",s1,d1);
-    printf("%.1f %.1f",s2,d2);
+    printf("%.1f %.1f",s2,d2);   #"%.1f" denotes after the answer .1 decimal place ex:2.4+3.2=5.60 but output is 5.6 it will print 
+                                     only one decimal if you want to print 2 decimal places you have to put "%.2f" instead of "%.1f" 
+                                           
     
     
     return 0;
